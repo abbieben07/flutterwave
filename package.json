@@ -1,18 +1,18 @@
 {
-    "name": "@nativescript-community/plugin-seed",
+    "name": "@nativescript-community/flutterwave",
     "version": "1.0.0",
-    "homepage": "https://github.com/nativescript-community/plugin-seed#readme",
+    "homepage": "https://github.com/nativescript-community/flutterwave#readme",
     "bugs": {
-        "url": "https://github.com/nativescript-community/plugin-seed/issues"
+        "url": "https://github.com/nativescript-community/flutterwave/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nativescript-community/plugin-seed.git"
+        "url": "git+https://github.com/nativescript-community/flutterwave.git"
     },
     "license": "ISC",
     "author": "",
     "scripts": {
-        "build": "rm -f .tsbuildinfo && npm run tsc",
+        "build": "del /q .tsbuildinfo && npm run tsc",
         "build.angular": "ng-packagr -p src/angular/package.json -c src/angular/tsconfig.json",
         "build.all": "npm run build && npm run build.angular",
         "clean": "rimraf ./plugin/**/*.d.ts ./plugin/**/*.js ./plugin/**/*.js.map node_modules package-lock.json",
