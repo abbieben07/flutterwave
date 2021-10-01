@@ -1,1 +1,3 @@
 pod 'FlutterwaveSDK'
+
+pod 'NSFlutterwave', :path => '../../node_modules/@abbieben/flutterwave/platforms/ios/NSFlutterwave'

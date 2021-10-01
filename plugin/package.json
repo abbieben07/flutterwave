@@ -1,6 +1,6 @@
 {
-    "name": "@nativescript-community/flutterwave",
-    "version": "1.0.0",
+    "name": "@abbieben/flutterwave",
+    "version": "1.0.1",
     "description": "This is an easy plugin of the Flutterwave SDK for Android and iOS",
     "main": "./flutterwave",
     "sideEffects": false,
@@ -23,11 +23,11 @@
         "Flutterwave"
     ],
     "bugs": {
-        "url": "https://github.com/nativescript-community/flutterwave/issues"
+        "url": "https://github.com/abbieben07/flutterwave/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/nativescript-community/flutterwave"
+        "url": "https://github.com/abbieben07/flutterwave"
     },
     "license": "Apache-2.0",
     "readmeFilename": "README.md"
