@@ -1,3 +1,2 @@
-pod 'FlutterwaveSDK'
-
-pod 'NSFlutterwave', :path => '../../node_modules/@abbieben/flutterwave/platforms/ios/NSFlutterwave'
+pod 'FlutterwaveSDK', :inhibit_warnings => true
+platform :ios, '11.0'

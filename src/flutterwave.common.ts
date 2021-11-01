@@ -1,7 +1,6 @@
-import { Flutterwave as FlutterwaveDefinition } from './flutterwave';
 import { isNullOrUndefined } from '@nativescript/core/utils/types';
 
-export abstract class FlutterwaveCommon implements FlutterwaveDefinition {
+export abstract class FlutterwaveCommon {
     public static PAYMENT_SUCCESS: String = 'success';
     public static PAYMENT_ERROR: String = 'error';
     public static PAYMENT_CANCELLED: String = 'cancelled';
@@ -44,7 +43,7 @@ export abstract class FlutterwaveCommon implements FlutterwaveDefinition {
                     return reject(new Error(`the Property "${key}" cannot be undefined`));
                 }
             }
-            return resolve();
+            return resolve(null);
         });
     }
 }

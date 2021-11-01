@@ -26,7 +26,7 @@ export default {
 			flutterwave.publicKey = 'FLWPUBK_TEST-89a10bc73517180cff90fee98ff64746-X';
 			flutterwave.firstName = 'John';
 			flutterwave.lastName = 'Smith';
-			flutterwave.phoneNumber = '08061234567';
+			flutterwave.phoneNumber = '0806123777567';
 			flutterwave.cardPayments = true;
 			flutterwave.accountPayments = true;
 			flutterwave.ussdPayments = true;
@@ -35,7 +35,7 @@ export default {
 			flutterwave.saveCard = true;
 			flutterwave.isStaging = true;
 			flutterwave.narration = 'Nativescript Flutterwave Demo';
-			flutterwave.txRef = '123tiur23';
+			flutterwave.txRef = '123tiur2323435677';
 			flutterwave
 				.pay()
 				.then(({ status }) => {
